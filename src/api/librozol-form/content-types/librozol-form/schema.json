@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "librozol_forms",
+  "info": {
+    "singularName": "librozol-form",
+    "pluralName": "librozol-forms",
+    "displayName": "Librozol Form "
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "number": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "city": {
+      "type": "string"
+    },
+    "jobCategory": {
+      "type": "string"
+    },
+    "others": {
+      "type": "string"
+    }
+  }
+}
