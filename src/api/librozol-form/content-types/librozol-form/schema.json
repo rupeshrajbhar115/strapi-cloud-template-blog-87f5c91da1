@@ -30,7 +30,7 @@
       "type": "string"
     },
     "terms": {
-      "type": "string"
+      "type": "boolean"
     }
   }
 }

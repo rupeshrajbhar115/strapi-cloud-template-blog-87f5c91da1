@@ -563,7 +563,7 @@ export interface ApiLibrozolFormLibrozolForm
     number: Schema.Attribute.String;
     others: Schema.Attribute.String;
     publishedAt: Schema.Attribute.DateTime;
-    terms: Schema.Attribute.String;
+    terms: Schema.Attribute.Boolean;
     updatedAt: Schema.Attribute.DateTime;
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
