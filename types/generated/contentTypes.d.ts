@@ -538,6 +538,7 @@ export interface ApiLibrozolFormLibrozolForm
   extends Struct.CollectionTypeSchema {
   collectionName: 'librozol_forms';
   info: {
+    description: '';
     displayName: 'Librozol Form ';
     pluralName: 'librozol-forms';
     singularName: 'librozol-form';
@@ -562,6 +563,7 @@ export interface ApiLibrozolFormLibrozolForm
     number: Schema.Attribute.String;
     others: Schema.Attribute.String;
     publishedAt: Schema.Attribute.DateTime;
+    terms: Schema.Attribute.String;
     updatedAt: Schema.Attribute.DateTime;
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;

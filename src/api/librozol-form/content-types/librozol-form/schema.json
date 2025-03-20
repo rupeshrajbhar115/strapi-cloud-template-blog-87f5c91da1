@@ -4,7 +4,8 @@
   "info": {
     "singularName": "librozol-form",
     "pluralName": "librozol-forms",
-    "displayName": "Librozol Form "
+    "displayName": "Librozol Form ",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -26,6 +27,9 @@
       "type": "string"
     },
     "others": {
+      "type": "string"
+    },
+    "terms": {
       "type": "string"
     }
   }
